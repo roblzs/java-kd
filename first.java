@@ -21,7 +21,10 @@ public class first {
   public static int countOnes(int num) {
     String strNum = String.valueOf(num);
 
-    return strNum.split("1").length - 1;
+    int wo1 = strNum.replace("1", "").length();
+    int w1 = strNum.length();
+
+    return w1 - wo1;
   }
 
   public static void main(String[] args) {
