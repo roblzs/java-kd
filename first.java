@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class First {
+public class first {
 
   public static Scanner in = new Scanner(System.in);
 
