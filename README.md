@@ -28,7 +28,10 @@ public class first {
   public static int countOnes(int num) {
     String strNum = String.valueOf(num);
 
-    return strNum.split("1").length - 1;
+    int wo1 = strNum.replace("1", "").length();
+    int w1 = strNum.length();
+
+    return w1 - wo1;
   }
 
   public static void main(String[] args) {
@@ -42,6 +45,13 @@ public class first {
   }
 }
 ```
+
+![image](https://user-images.githubusercontent.com/62758448/206892812-c7914bb9-410c-4057-aed4-02b00d1685f4.png)
+
+![image](https://user-images.githubusercontent.com/62758448/206892840-ad46ca84-10d1-4945-84fa-15256e9be4e6.png)
+
+![image](https://user-images.githubusercontent.com/62758448/206892853-750adadc-851c-4a5b-ac79-5cbd9949cd0a.png)
+
 
 2. Uzrakstīt  Java  programmu,  kas  paredzēta  divu  dimensiju  masīva  apstrādei.  Masīvu  aizpildīt  ar nejaušiem veseliem skaitļiem diapazonā -20...20. Kolonnu  un  rindu  skaitu  ievada lietotājs. Masīvu nodod  funkcijai, kas paredzēta masīva apstrādei.  Ar  funkciju  visus  divu  dimensiju masīva negatīvus elementus  saglabāt  viendimensījas  masīvā   un  sakārtot  viendimensijas  masīva  elementus  dilstošā secībā un izvadīt tos uz ekrānu.
 
@@ -171,6 +181,8 @@ public class second {
 }
 ```
 
+![image](https://user-images.githubusercontent.com/62758448/206892881-630b7a16-62c5-421e-91af-08ed003fea38.png)
+
 3. Uzrakstīt Java  programmu, kas paredzēta simbolu virkņu apstrādei. Sākumdatus ievada lietotājs. Tekstu nodod funkcijai, kas noteic vai teksts sākās ar vārdu "Latvija". Ar izveidotu funkcij show(str) izprintēt visus teikuma vārdus
 
 ```java
@@ -213,3 +225,5 @@ public class third {
   }
 }
 ```
+
+![image](https://user-images.githubusercontent.com/62758448/206892697-2559dbfe-cfb4-492c-8f72-91081bad5b59.png)
